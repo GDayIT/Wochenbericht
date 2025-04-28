@@ -33,23 +33,10 @@
 </dependencies>
 <build>
 <plugins>
-    
- <<<<<<< HEAD
- =======
-     <plugin>
-   <plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-jar-plugin</artifactId>
-    <version>2.4</version>
- @@ -67,7 +65,6 @@
-        </execution>
-    </executions>
- </plugin>
- >>>>>>> 296bc28 (neu)
-  <plugin>
+<plugin>
    <groupId>org.apache.maven.plugins</groupId>
    <artifactId>maven-jar-plugin</artifactId>
-   <version>2.4</version>
+   <version>3.4.1</version>
    <configuration>
        <archive>
            <manifest>
