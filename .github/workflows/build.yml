@@ -20,7 +20,7 @@ jobs:
     - run: mvn compile
     - run: mvn package
 
-    - run: jpackage --type exe --win-menu --win-per-user-install --win-shortcut --win-dir-chooser --icon src/main/resources/app_icon.ico --input target --name Wochenberichte --main-jar Wochenberichte-1.0-SNAPSHOT.jar --main-class de.bbq.wochenberichte.Main
+    - run: jpackage --type exe --win-menu --win-per-user-install --win-shortcut --win-dir-chooser --icon src/main/resources/t.ico --input target --name Wochenberichte --main-jar Wochenberichte-1.0-SNAPSHOT.jar --main-class de.bbq.wochenberichte.Main
       shell: cmd
 
 
