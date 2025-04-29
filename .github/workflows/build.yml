@@ -26,11 +26,13 @@ jobs:
         --win-per-user-install `
         --win-shortcut `
         --win-dir-chooser `
-        --icon --icon src/main/resources/app_icon.ico `
+        --icon src/main/resources/app_icon.ico `
         --input target `
         --name Wochenberichte `
         --main-jar Wochenberichte-1.0-SNAPSHOT.jar `
         --main-class de.bbq.wochenberichte.Main
+      shell: cmd
+
 
     - uses: actions/upload-artifact@v4
       with:
@@ -51,11 +53,8 @@ jobs:
     - run: mvn compile
     - run: mvn package
 
-    - run: jpackage --type deb \
-        --input target \
-        --name Wochenberichte \
-        --main-jar Wochenberichte-1.0-SNAPSHOT.jar \
-        --main-class de.bbq.wochenberichte.Main
+    - run: jpackage --type deb --input target --name Wochenberichte --main-jar Wochenberichte-1.0-SNAPSHOT.jar --main-class de.bbq.wochenberichte.Main
+
 
     - uses: actions/upload-artifact@v4
       with:
