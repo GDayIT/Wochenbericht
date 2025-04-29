@@ -26,7 +26,7 @@ jobs:
         --win-per-user-install `
         --win-shortcut `
         --win-dir-chooser `
-        --icon C:/Users/DimitriousGeorgiou/Documents/NetBeansProjects/Wochenberichte/src/main/resources/aa84d4a8854fd426e4884fcceebafe48.ico `
+        --icon --icon src/main/resources/app_icon.ico `
         --input target `
         --name Wochenberichte `
         --main-jar Wochenberichte-1.0-SNAPSHOT.jar `
