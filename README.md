@@ -1,7 +1,10 @@
 # Wochenbericht
+
+## What's the use?
+________
 > [!NOTE]
 > Just a simple tool to get a glimps of what i did previously.
-
+________
 
 > [!CAUTION]
 > Is usefull..
