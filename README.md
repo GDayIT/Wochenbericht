@@ -9,6 +9,7 @@ ________
 > [!CAUTION]
 > Is usefull..
 > no realy.
+> You can use REST API to use KI like chatGPT!
 																								
 												
 						
