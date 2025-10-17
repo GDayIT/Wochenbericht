@@ -11,7 +11,7 @@ ________
 > no realy.
 >
 
-> You can use REST API for KI, like chatGPT!
+> You can use REST API for KI, like ChatGPT!
 																								
 												
 						
